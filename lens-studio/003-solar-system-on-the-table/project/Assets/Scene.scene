@@ -1042,7 +1042,7 @@
       font: !<reference.Font> 00000000-0000-0000-0000-000000000000
       labelMaterial: !<reference.Material> a525fcc8-4655-4c68-82c8-5bba1a3f4f42
       fontSize: !<float> 48.000000
-      labelScale: !<float> 3.000000
+      labelScale: 3.500000
       planets:
         - planetObject: !<reference.SceneObject> c008ccf0-b4c1-4f08-ab8e-c1c9dabe268e
           planetName: Sun

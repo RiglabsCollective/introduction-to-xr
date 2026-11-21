@@ -52,7 +52,7 @@
       font: !<reference.Font> 00000000-0000-0000-0000-000000000000
       labelMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
       fontSize: !<float> 48.000000
-      labelScale: !<float> 3.000000
+      labelScale: 3.500000
       planets:
         []
   ScriptTypes:
