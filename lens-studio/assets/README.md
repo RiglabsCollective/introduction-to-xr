@@ -16,6 +16,15 @@ Files used across the lens guides. Each guide lists exactly which files it needs
 | `textures/solar-system/` | 003 Solar System on the Table | Planet and Moon images that come with the "Solar System" model above (same author and licence) |
 | `textures/department-of-xr.png` | 002 Face-Filter Name Badge | Department of XR logo, made for this course |
 
+## From the Lens Studio Asset Library
+
+These are installed from inside Lens Studio (**Asset Library**), so they are not stored in `assets/`:
+
+| Asset | Used by | Notes |
+|-------|---------|-------|
+| Glasses Pack | 007 Virtual Try-On | Six pairs of glasses with face occluders |
+| Cricket Helmet | 007 Virtual Try-On | Used as the safety helmet |
+
 ## Scripts
 
 Reusable scripts. Each works on any object in any lens. Drag the file into the Asset Browser of your project, then add it to an object as a **Script** component.

@@ -1,0 +1,17 @@
+- !<AnimationMixerLayer/a391ca82-64a1-4d22-b603-8a0f1ae35707>
+  PackagePath: Layer0
+  Layer: Layer0
+  Name: Layer0
+  Weight: 1.000000
+  SpeedRatio: 1.000000
+  From: 0.000000
+  To: 3.500000
+  Offset: 0.000000
+  FPS: 30.000000
+  NumCycles: -1
+  Reversed: false
+  Disabled: false
+  PostInfinity: Cycle
+  BlendMode: Additive
+  ScaleMode: Multiply
+  RangeType: TimeInSeconds

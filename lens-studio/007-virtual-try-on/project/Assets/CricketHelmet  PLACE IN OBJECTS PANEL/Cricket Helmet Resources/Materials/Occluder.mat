@@ -1,0 +1,32 @@
+- !<Material/c76ec502-5b91-400b-9304-d5f6cf9978d4>
+  PackagePath: Cricket Helmet Resources/Materials/Occluder
+  PassesInfo:
+    - !<own> dcf31ad7-f8c9-452c-9581-d381f5c6b9af
+- !<PassInfo/dcf31ad7-f8c9-452c-9581-d381f5c6b9af>
+  CachedProperties:
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  ShadingRate: Rate1x1
+  TwoSided: false
+  ColorMask: {x: false, y: false, z: false, w: false}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - Tweak_N1
+    - Tweak_N6
+  BlendMode: Disabled
+  Properties:
+    Port_FinalColor_N004:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> e8388530-9d9c-4f5e-aad7-485f80fea2e3

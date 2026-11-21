@@ -10,25 +10,25 @@ updateCheckpoint: 111
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 metaInfo:
   hints:
-    []
+    - lens_hint_find_face
   tags:
     []
-  lensName: Untitled
+  lensName: Virtual Try On
   lensDescriptors:
-    []
+    - AI_MUTATED
+    - GEN_AI_ICON
   lensApplicableContext:
     - live_camera
     - reply_camera
     - video_chat
   lensApplicability:
     - Front
-    - Back
   lensClientCompatibilities:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: 013b2a19d7164af19f872834bc7f2309
+  videoPreviewHash: 3a29d4aeee9769aa95fef762f6f25bea
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423

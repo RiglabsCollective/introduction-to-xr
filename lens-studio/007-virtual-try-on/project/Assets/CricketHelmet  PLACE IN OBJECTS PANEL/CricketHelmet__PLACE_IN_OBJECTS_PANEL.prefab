@@ -1,0 +1,212 @@
+- !<ObjectPrefab/87d68c52-65f5-4306-9cd3-877ad002c66a>
+  PackagePath: CricketHelmet__PLACE_IN_OBJECTS_PANEL
+  objects:
+    - !<own> e6483b7b-de9b-4532-b8b7-7ea60f18511c
+  LazyLoading: false
+  RetainAssets: true
+  PreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/1a7b685e-80cb-4dff-8c1d-673724d596ed>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c76ec502-5b91-400b-9304-d5f6cf9978d4
+  Mesh: !<reference> 2395f23f-93e6-4a41-9fea-dfd43ce69e6c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/2481637e-6c04-4dc5-a274-98a2ec4ae82d>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ee58a9c5-1610-4741-b86b-152029f6067b
+  Mesh: !<reference> 410ece6d-ca21-48d5-be9c-098a359720a1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2c394e6f-a5a0-4038-9dd2-1dcc47426ffd>
+  PrefabRemaps:
+    []
+  Name: ocluder
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -2.654209}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1a7b685e-80cb-4dff-8c1d-673724d596ed
+- !<RenderMeshVisual/528d54d5-b99e-4e3d-933a-f55db41bcd1a>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ae9d20c2-098c-4749-a7bc-8977cf2e8e67
+  Mesh: !<reference> 1481481c-22a5-482c-82ab-b1ed98915f5c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5fa5bd48-0945-402a-86c6-6a238566e023>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d2fa9254-f2c5-49df-a37b-394683c4b11b
+    - !<reference> a91cea0b-c869-4e49-be58-aa524ed95326
+  Mesh: !<reference> 41db9579-7c16-4151-acaf-9782ee6c7d68
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6db75253-cefe-4a9c-b431-aed42dc684d9>
+  PrefabRemaps:
+    []
+  Name: shadow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -2.523367}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 528d54d5-b99e-4e3d-933a-f55db41bcd1a
+- !<RenderMeshVisual/96b12ce1-41a8-4d30-bdec-690a5c258045>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> eaf5760d-614f-4012-8df9-a14285c0d8cc
+  Mesh: !<reference> a5da8601-ba77-47fc-b9b4-49d3b0ee49cf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d30cfd49-dfff-4a71-9dfc-6e49f6213088>
+  PrefabRemaps:
+    []
+  Name: cricket_secondary_grid
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.370009, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 96b12ce1-41a8-4d30-bdec-690a5c258045
+- !<SceneObject/e6483b7b-de9b-4532-b8b7-7ea60f18511c>
+  PrefabRemaps:
+    - 1a7b685e-80cb-4dff-8c1d-673724d596ed: 1a7b685e-80cb-4dff-73e2-98c8db2a6912
+    - 2481637e-6c04-4dc5-a274-98a2ec4ae82d: 2481637e-6c04-4dc5-5d8b-675d13b517d2
+    - 2c394e6f-a5a0-4038-9dd2-1dcc47426ffd: 2c394e6f-a5a0-4038-622d-e233b8bd9002
+    - 528d54d5-b99e-4e3d-933a-f55db41bcd1a: 528d54d5-b99e-4e3d-6cc5-0aa24be432e5
+    - 5fa5bd48-0945-402a-86c6-6a238566e023: 5fa5bd48-0945-402a-7939-95dc7a991fdc
+    - 6db75253-cefe-4a9c-b431-aed42dc684d9: 6db75253-cefe-4a9c-4bce-512bd2397b26
+    - 96b12ce1-41a8-4d30-bdec-690a5c258045: 96b12ce1-41a8-4d30-4213-96f5a3da7fba
+    - d30cfd49-dfff-4a71-9dfc-6e49f6213088: d30cfd49-dfff-4a71-6203-91b609decf77
+    - e6483b7b-de9b-4532-b8b7-7ea60f18511c: e6483b7b-de9b-4532-4748-8159f0e7aee3
+    - ef122b02-edfb-40dc-8103-422e2c3d4983: ef122b02-edfb-40dc-7efc-bdd1d3c2b67c
+    - f855618e-6918-45e6-a27f-3c2bf21a65dc: f855618e-6918-45e6-5d80-c3d40de59a23
+  Name: CricketHelmet  PLACE IN OBJECTS PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.049014, y: 1.049014, z: 1.049014}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2c394e6f-a5a0-4038-9dd2-1dcc47426ffd
+    - !<own> 6db75253-cefe-4a9c-b431-aed42dc684d9
+    - !<own> ef122b02-edfb-40dc-8103-422e2c3d4983
+    - !<own> f855618e-6918-45e6-a27f-3c2bf21a65dc
+    - !<own> d30cfd49-dfff-4a71-9dfc-6e49f6213088
+  Components:
+    []
+- !<SceneObject/ef122b02-edfb-40dc-8103-422e2c3d4983>
+  PrefabRemaps:
+    []
+  Name: cricket_primary_helmet
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5fa5bd48-0945-402a-86c6-6a238566e023
+- !<SceneObject/f855618e-6918-45e6-a27f-3c2bf21a65dc>
+  PrefabRemaps:
+    []
+  Name: cricket_helmet_logo
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.197594}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2481637e-6c04-4dc5-a274-98a2ec4ae82d
