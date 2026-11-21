@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: 3D Axis Explorer
   lensDescriptors:
     - AI_MUTATED
   lensApplicableContext:
@@ -21,18 +21,17 @@ metaInfo:
     - reply_camera
     - video_chat
   lensApplicability:
-    - Front
     - Back
   lensClientCompatibilities:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: 7d84b3ee347e9fc7d3f9a82d7394f356
+  videoPreviewHash: 054db250efcd1ce95fd73fca8e0d39b9
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423
-  activationCamera: Front
+  activationCamera: Rear
   sourceMapEnabled: false
   shaderCacheInvalidationEnabled: false
   usingMinClientVersions: false

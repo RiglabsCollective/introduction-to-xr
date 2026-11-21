@@ -10,12 +10,12 @@ updateCheckpoint: 111
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 metaInfo:
   hints:
-    []
+    - lens_hint_find_face
   tags:
     []
-  lensName: Untitled
+  lensName: Face Name Badge
   lensDescriptors:
-    []
+    - AI_MUTATED
   lensApplicableContext:
     - live_camera
     - reply_camera
@@ -27,8 +27,8 @@ metaInfo:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: 85f61f2b9d45a133d766256e2004048c
+  videoPreviewHash: e4d564ce18aae369491c6a88ed68c27b
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423
