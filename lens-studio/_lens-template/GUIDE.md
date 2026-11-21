@@ -1,7 +1,7 @@
 # Lens N – Lens name
 
 **What you will build:** one or two sentences.
-**XR concept:** (e.g. world tracking, face tracking, image markers)
+**XR concept:** 
 **Course day:**
 **Lens Studio version:**
 **Time:** about __ minutes

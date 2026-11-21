@@ -1,7 +1,7 @@
-# Lens N – Lens name
+# Lens 4 – Anatomy Overlay
 
-**What you will build:** one or two sentences.
-**XR concept:** (e.g. world tracking, face tracking, image markers)
+**What you will build:** Body or face tracking shows the skull, muscles or organs over the user.
+**XR concept:** Body and face tracking (Deck 4 healthcare examples)
 **Course day:**
 **Lens Studio version:**
 **Time:** about __ minutes
