@@ -1,0 +1,76 @@
+- !<AssetImportMetadata/12ea01c8-147c-4760-ae19-19883ab42119>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 335cb586-0aff-4fed-adc2-0980aefb5f0d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 335cb586-0aff-4fed-adc2-0980aefb5f0d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 86757c20-0a3c-47c5-9380-494ec3be9c37
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/86757c20-0a3c-47c5-9380-494ec3be9c37>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  RunInEditor: false
+  ComponentUid: 4e073a21-7997-41ac-9f6f-c912f18ac445
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    direction: false
+    font: false
+    fontSize: false
+    labelMaterial: false
+    labelScale: false
+    planets: false
+    secondsPerEarthYear: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - secondsPerEarthYear: !<float> 30.000000
+      direction: !<float> 1.000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      font: !<reference.Font> 00000000-0000-0000-0000-000000000000
+      labelMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      fontSize: !<float> 48.000000
+      labelScale: !<float> 3.000000
+      planets:
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float secondsPerEarthYear = 30 {"hint":"How many seconds one Earth year lasts in the lens. Smaller is faster."}'
+    - '// @input float direction = 1 {"hint":"1 turns counter-clockwise seen from above, -1 turns clockwise."}'
+    - '// @input Component.Camera camera {"hint":"The camera every label turns to face (usually Camera Object)."}'
+    - '// @input Asset.Font font {"hint":"The font used for every label. Leave it empty to use the default font."}'
+    - '// @input Asset.Material labelMaterial {"hint":"The material used for every label. Leave it empty for the default text material."}'
+    - '// @input float fontSize = 48 {"hint":"Font size of the label text."}'
+    - '// @input float labelScale = 3 {"hint":"Size of every label in the world. Raise it to make all the labels bigger."}'
+    - /*
+    - "@typedef PlanetSlot"
+    - '@property {SceneObject} planetObject {"hint":"The planet (or moon) itself. It orbits the centre of its parent object."}'
+    - '@property {string} planetName {"hint":"The words shown on the label above the planet."}'
+    - '@property {float} labelOffset = 3 {"hint":"How far above the planet the label floats, in centimetres."}'
+    - '@property {float} orbitPeriodInYears {"hint":"How long one orbit takes, in Earth years. Mercury 0.24, Earth 1, Neptune 164.8. Use 0 for no orbit."}'
+    - "*/"
+    - '// @input PlanetSlot[] planets {"hint":"One slot per planet: the object, its name, the label height and the orbit time."}'

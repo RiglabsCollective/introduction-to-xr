@@ -13,9 +13,10 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: Table Solar System
   lensDescriptors:
-    []
+    - AI_MUTATED
+    - GEN_AI_ICON
   lensApplicableContext:
     - live_camera
     - reply_camera
@@ -27,12 +28,12 @@ metaInfo:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
+  iconHash: 39b087a5c8c6c1c3359d1664be5276d9
   videoPreviewHash: ""
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423
-  activationCamera: Front
+  activationCamera: Rear
   sourceMapEnabled: false
   shaderCacheInvalidationEnabled: false
   usingMinClientVersions: false
