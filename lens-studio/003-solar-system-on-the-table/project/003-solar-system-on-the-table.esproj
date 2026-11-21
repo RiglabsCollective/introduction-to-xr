@@ -10,7 +10,7 @@ updateCheckpoint: 111
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 metaInfo:
   hints:
-    []
+    - lens_hint_come_closer
   tags:
     []
   lensName: Table Solar System
@@ -22,14 +22,13 @@ metaInfo:
     - reply_camera
     - video_chat
   lensApplicability:
-    - Front
     - Back
   lensClientCompatibilities:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
   iconHash: 39b087a5c8c6c1c3359d1664be5276d9
-  videoPreviewHash: ""
+  videoPreviewHash: a8276bb4309de43f4862d9cda92a03b1
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423

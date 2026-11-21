@@ -22,7 +22,6 @@ metaInfo:
     - video_chat
   lensApplicability:
     - Front
-    - Back
   lensClientCompatibilities:
     - Mobile
     - CameraKit

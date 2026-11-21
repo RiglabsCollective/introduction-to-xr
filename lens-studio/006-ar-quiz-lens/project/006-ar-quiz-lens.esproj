@@ -10,25 +10,25 @@ updateCheckpoint: 111
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 metaInfo:
   hints:
-    []
+    - lens_hint_find_face
   tags:
     []
-  lensName: Untitled
+  lensName: Quiz Cards
   lensDescriptors:
-    []
+    - AI_MUTATED
+    - GEN_AI_ICON
   lensApplicableContext:
     - live_camera
     - reply_camera
     - video_chat
   lensApplicability:
     - Front
-    - Back
   lensClientCompatibilities:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: ea58a0b21033e5f84e5cd0fdce880c45
+  videoPreviewHash: 4a69a9dddff72a38f79b94455a04f220
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423

@@ -184,6 +184,7 @@
   ScriptInputsDefault:
     degreesPerScreenWidth: true
     freeRotation: true
+    maxTiltDegrees: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -191,6 +192,7 @@
       camera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
       degreesPerScreenWidth: !<float> 360.000000
       freeRotation: true
+      maxTiltDegrees: !<float> 180.000000
   ScriptTypes:
     "":
       {}

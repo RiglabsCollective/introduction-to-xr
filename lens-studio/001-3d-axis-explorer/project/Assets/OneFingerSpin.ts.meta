@@ -32,6 +32,7 @@
     camera: false
     degreesPerScreenWidth: false
     freeRotation: false
+    maxTiltDegrees: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -44,6 +45,7 @@
     - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
       degreesPerScreenWidth: !<float> 360.000000
       freeRotation: true
+      maxTiltDegrees: !<float> 180.000000
   ScriptTypes:
     -
       {}
@@ -51,3 +53,4 @@
     - '// @input Component.Camera camera {"hint":"The camera that renders this object (usually Camera Object)."}'
     - '// @input float degreesPerScreenWidth = 360 {"hint":"Degrees of spin for a drag across the full width (or height) of the screen."}'
     - '// @input bool freeRotation = true {"hint":"On: drag in any direction to tumble freely. Off: left/right only (turntable)."}'
+    - "// @input float maxTiltDegrees = 180 {\"hint\":\"How far the object may tilt away from upright, in degrees, so it can't flip over. 180 means no limit. 25 keeps it within 25 degrees.\"}"

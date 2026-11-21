@@ -10,7 +10,7 @@ updateCheckpoint: 111
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 metaInfo:
   hints:
-    []
+    - lens_hint_draw_with_your_finger
   tags:
     []
   lensName: Anatomy Overlay
@@ -22,7 +22,6 @@ metaInfo:
     - reply_camera
     - video_chat
   lensApplicability:
-    - Front
     - Back
   lensClientCompatibilities:
     - Mobile
@@ -33,7 +32,7 @@ metaInfo:
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423
-  activationCamera: Front
+  activationCamera: Rear
   sourceMapEnabled: false
   shaderCacheInvalidationEnabled: false
   usingMinClientVersions: false
