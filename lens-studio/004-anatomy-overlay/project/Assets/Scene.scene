@@ -292,7 +292,7 @@
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 30.000000, z: -70.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    Scale: {x: 2.000000, y: 2.000000, z: 2.000000}
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 407eaf40-442f-4d09-8f61-5bc04dd10c0d

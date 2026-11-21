@@ -8,7 +8,7 @@
 
 > **Status: draft.** The numbers match the finished project in [`project/`](project/). The label positions were placed by eye, and the surface tracking and shadow still need a check on a phone. The menu names (such as **+ → Mesh → Sphere**) need a check in Lens Studio 5.25.
 
-![The heart with its labels](guide-images/preview.jpg)
+![The heart](guide-images/preview.png)
 
 ## What participants learn
 
@@ -102,16 +102,16 @@ The labels are made by one script, `Annotations`. For each part of the heart you
 1. Inside `Heart`, add an **Empty Scene Object** and name it `Heart Points`.
 2. Inside `Heart Points`, add one **Empty Scene Object** for each part and give it a **Position**:
 
-| Point | Position |
-|-------|----------|
+| Point              | Position        |
+| ------------------ | --------------- |
 | Superior vena cava | `-5.9, 12.6, 9` |
-| Aortic arch | `1.9, 11.9, 9` |
-| Pulmonary artery | `5.1, 8.2, 9` |
-| Right atrium | `-8.4, 3, 9` |
-| Right ventricle | `-3.6, -5.1, 9` |
-| Left ventricle | `4.5, -6.5, 9` |
-| Coronary arteries | `1, 0.8, 9` |
-| Apex | `2.8, -14.6, 9` |
+| Aortic arch        | `1.9, 11.9, 9`  |
+| Pulmonary artery   | `5.1, 8.2, 9`   |
+| Right atrium       | `-8.4, 3, 9`    |
+| Right ventricle    | `-3.6, -5.1, 9` |
+| Left ventricle     | `4.5, -6.5, 9`  |
+| Coronary arteries  | `1, 0.8, 9`     |
+| Apex               | `2.8, -14.6, 9` |
 
 The points are inside `Heart`, so they turn with the heart. The last number, 9, puts each point just in front of the heart's surface so the dot is not hidden inside it.
 
@@ -127,29 +127,29 @@ The points are inside `Heart`, so they turn with the heart. The last number, 9, 
 2. Add an **Empty Scene Object** at the top level and name it `HeartAnnotations`. Add a **Script** component and set its **Script** to `Annotations`.
 3. Set the settings:
 
-| Setting | Value | What it does |
-|---------|-------|--------------|
-| Camera | `Camera Object : Camera` | The camera the labels turn to face. |
-| Center Object | `Heart` | The centre of the heart. Labels go left or right of it, away from the centre. |
-| Label Material | `Label Text` | The white text. |
-| Font Size | `48` | The size of the text. |
-| Label Scale | `3` | The size of every label. Raise it for bigger labels. |
-| Dot Mesh | `Dot Sphere` | The shape of the dots. |
-| Dot Material | `Label Dot` | The colour of the dots. |
-| Dot Size | `1.2` | The size of the dots, in centimetres. |
+| Setting        | Value                    | What it does                                                                  |
+| -------------- | ------------------------ | ----------------------------------------------------------------------------- |
+| Camera         | `Camera Object : Camera` | The camera the labels turn to face.                                           |
+| Center Object  | `Heart`                  | The centre of the heart. Labels go left or right of it, away from the centre. |
+| Label Material | `Label Text`             | The white text.                                                               |
+| Font Size      | `48`                     | The size of the text.                                                         |
+| Label Scale    | `3`                      | The size of every label. Raise it for bigger labels.                          |
+| Dot Mesh       | `Dot Sphere`             | The shape of the dots.                                                        |
+| Dot Material   | `Label Dot`              | The colour of the dots.                                                       |
+| Dot Size       | `1.2`                    | The size of the dots, in centimetres.                                         |
 
 4. Under **Annotations**, click **Add Value** once for each part. Each slot has three boxes: **Target** (the point), **Label Text** (the words) and **Label Offset** (where the label floats):
 
-| Target | Label Text | Label Offset |
-|--------|------------|--------------|
-| Superior vena cava | Superior vena cava | `1.5, 2, 3` |
-| Aortic arch | Aorta | `1.5, 3, 3` |
-| Pulmonary artery | Pulmonary artery | `1.5, 0, 3` |
-| Right atrium | Right atrium | `1.5, 0, 3` |
-| Right ventricle | Right ventricle | `1.5, -2, 3` |
-| Left ventricle | Left ventricle | `1.5, -1, 3` |
-| Coronary arteries | Coronary arteries | `1.5, 0, 3` |
-| Apex | Apex | `1.5, -2, 3` |
+| Target             | Label Text         | Label Offset |
+| ------------------ | ------------------ | ------------ |
+| Superior vena cava | Superior vena cava | `1.5, 2, 3`  |
+| Aortic arch        | Aorta              | `1.5, 3, 3`  |
+| Pulmonary artery   | Pulmonary artery   | `1.5, 0, 3`  |
+| Right atrium       | Right atrium       | `1.5, 0, 3`  |
+| Right ventricle    | Right ventricle    | `1.5, -2, 3` |
+| Left ventricle     | Left ventricle     | `1.5, -1, 3` |
+| Coronary arteries  | Coronary arteries  | `1.5, 0, 3`  |
+| Apex               | Apex               | `1.5, -2, 3` |
 
 The three numbers of **Label Offset** are in centimetres: **X** is the gap between the dot and the nearest edge of the text (the script works out left or right for each label, and keeps the same small gap whatever the length of the words), **Y** is up and **Z** is towards you.
 
@@ -172,16 +172,16 @@ The labels don't exist in the Scene view. The script makes them when the lens st
 
 ## What each part does
 
-| Part | What it does |
-|------|--------------|
+| Part               | What it does                                                              |
+| ------------------ | ------------------------------------------------------------------------- |
 | Superior vena cava | Brings blood with little oxygen from the head and arms back to the heart. |
-| Right atrium | Receives that blood and passes it to the right ventricle. |
-| Right ventricle | Pumps the blood to the lungs through the pulmonary artery. |
-| Pulmonary artery | Carries blood to the lungs, where it picks up oxygen. |
-| Left ventricle | The strongest chamber. It pumps oxygen-rich blood out to the body. |
-| Aorta | The largest artery. It carries blood from the left ventricle to the body. |
-| Coronary arteries | Feed the heart muscle itself with blood. |
-| Apex | The pointed tip of the heart, formed by the left ventricle. |
+| Right atrium       | Receives that blood and passes it to the right ventricle.                 |
+| Right ventricle    | Pumps the blood to the lungs through the pulmonary artery.                |
+| Pulmonary artery   | Carries blood to the lungs, where it picks up oxygen.                     |
+| Left ventricle     | The strongest chamber. It pumps oxygen-rich blood out to the body.        |
+| Aorta              | The largest artery. It carries blood from the left ventricle to the body. |
+| Coronary arteries  | Feed the heart muscle itself with blood.                                  |
+| Apex               | The pointed tip of the heart, formed by the left ventricle.               |
 
 ## Make it your own
 
@@ -193,18 +193,18 @@ The labels don't exist in the Scene view. The script makes them when the lens st
 
 ## Troubleshooting
 
-| Problem | Fix |
-|---------|-----|
-| The heart doesn't appear | Check **Tracking Mode** is **Surface**. Move the phone slowly over a flat, well-lit surface. |
-| The heart is huge or tiny | Check `Heart Model` has Scale `0.0326, 0.0326, 0.0326` and `Heart` has Scale `1.5, 1.5, 1.5`. |
-| Spinning does nothing | Check the **Interaction** on `Heart` lists the heart's **Render Mesh Visual** under **Mesh Visuals**. |
-| A swipe opens Chat or Stories | Add the `TouchBlocking.ts` script from the shared scripts folder to an empty object. |
-| There is no shadow | Check the **Light** has **Casts Shadows** switched on, the heart's mesh is a **Caster**, and `Ground Shadow` is directly below the heart. |
-| A label is missing | Check its slot in `Annotations` has a **Target** and a **Label Text**. |
-| A dot floats away from the heart | Move that point inside `Heart Points`. Dots follow their point. |
-| A dot is hidden inside the heart | Raise the last number (Z) of the point's position. |
-| The labels are too small | Raise **Label Scale** on `Annotations`. |
-| The text looks thin | Set **Label Material** on `Annotations`. If it still looks thin, choose a font in **Font**. |
+| Problem                          | Fix                                                                                                                                       |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| The heart doesn't appear         | Check **Tracking Mode** is **Surface**. Move the phone slowly over a flat, well-lit surface.                                              |
+| The heart is huge or tiny        | Check `Heart Model` has Scale `0.0326, 0.0326, 0.0326` and `Heart` has Scale `1.5, 1.5, 1.5`.                                             |
+| Spinning does nothing            | Check the **Interaction** on `Heart` lists the heart's **Render Mesh Visual** under **Mesh Visuals**.                                     |
+| A swipe opens Chat or Stories    | Add the `TouchBlocking.ts` script from the shared scripts folder to an empty object.                                                      |
+| There is no shadow               | Check the **Light** has **Casts Shadows** switched on, the heart's mesh is a **Caster**, and `Ground Shadow` is directly below the heart. |
+| A label is missing               | Check its slot in `Annotations` has a **Target** and a **Label Text**.                                                                    |
+| A dot floats away from the heart | Move that point inside `Heart Points`. Dots follow their point.                                                                           |
+| A dot is hidden inside the heart | Raise the last number (Z) of the point's position.                                                                                        |
+| The labels are too small         | Raise **Label Scale** on `Annotations`.                                                                                                   |
+| The text looks thin              | Set **Label Material** on `Annotations`. If it still looks thin, choose a font in **Font**.                                               |
 
 ## Credits
 
