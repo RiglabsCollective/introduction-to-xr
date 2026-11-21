@@ -4,7 +4,7 @@ Build each lens yourself by following its guide. Every file the guides ask for i
 
 | # | Lens | What you build | XR concept | Guide | Status |
 |---|------|----------------|------------|-------|--------|
-| [1](001-3d-axis-explorer/) | 3D Axis Explorer | A world lens that drops a cube with red X, green Y and blue Z arrows. Pinch to move, rotate and scale it. | World tracking, 3D coordinates and transforms (Deck 1 spatial concepts) | [Guide](001-3d-axis-explorer/README.md) | Planned |
+| [1](001-3d-axis-explorer/) | 3D Axis Explorer | A world lens that drops a cube with red X, green Y and blue Z arrows. Pinch to move, rotate and scale it. | World tracking, 3D coordinates and transforms (Deck 1 spatial concepts) | [Guide](001-3d-axis-explorer/README.md) | Draft guide |
 | [2](002-face-filter-name-badge/) | Face-Filter Name Badge | A head-tracked lens that shows the faculty member's name, department and a college logo. | Face tracking | [Guide](002-face-filter-name-badge/README.md) | Planned |
 | [3](003-solar-system-on-the-table/) | Solar System on the Table | Surface tracking puts planets in orbit on a table, and tapping a planet shows a fact card. | Surface tracking, tap interaction | [Guide](003-solar-system-on-the-table/README.md) | Planned |
 | [4](004-anatomy-overlay/) | Anatomy Overlay | Body or face tracking shows the skull, muscles or organs over the user. | Body and face tracking (Deck 4 healthcare examples) | [Guide](004-anatomy-overlay/README.md) | Planned |
@@ -37,7 +37,6 @@ lens-studio/
 
 - Install **Lens Studio 5.25** or later (Windows or macOS). Every lens here is built and tested on 5.25.
 - Install the Snapchat app on your phone to test lenses.
-- If you clone with Git, run `git lfs install` first so large models and images download properly.
 
 ## Windows and macOS
 
@@ -46,4 +45,5 @@ Every project in this folder opens on both Windows and macOS. To keep it that wa
 - **Windows users cloning with Git:** run `git config --global core.longpaths true` once, so long asset paths don't fail.
 - **Open the project folder, not a copy of the Cache:** Lens Studio rebuilds `Cache/` and `Workspaces/` on each machine, so they are not in the repo.
 - **File names:** use lowercase letters, numbers and hyphens only. No spaces, and nothing that differs only by capital letters (`Cube.png` and `cube.png` are the same file on Windows and macOS).
+- **Large files:** keep each file under 50 MB. GitHub refuses files over 100 MB, and the repo does not use Git LFS so that **Code → Download ZIP** always contains the real files.
 - **Finished lens:** each lens folder may include an exported `.lns` file, which works the same on both systems.
