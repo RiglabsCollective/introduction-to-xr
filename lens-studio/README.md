@@ -2,18 +2,18 @@
 
 Build each lens yourself by following its guide. Every file the guides ask for is in [`assets/`](assets/).
 
-| # | Lens | What you build | XR concept | Guide | Status |
-|---|------|----------------|------------|-------|--------|
-| [1](001-3d-axis-explorer/) | 3D Axis Explorer | A world lens that places a cube in the room. Drag to move it, pinch to scale it and swipe with one finger to spin it. | World tracking, 3D coordinates and transforms (Deck 1 spatial concepts) | [Guide](001-3d-axis-explorer/README.md) | Draft guide |
-| [2](002-face-filter-name-badge/) | Face-Filter Name Badge | A head-tracked lens that shows the faculty member's name, department and a college logo. | Face tracking | [Guide](002-face-filter-name-badge/README.md) | Planned |
-| [3](003-solar-system-on-the-table/) | Solar System on the Table | Surface tracking puts planets in orbit on a table, and tapping a planet shows a fact card. | Surface tracking, tap interaction | [Guide](003-solar-system-on-the-table/README.md) | Planned |
-| [4](004-anatomy-overlay/) | Anatomy Overlay | Body or face tracking shows the skull, muscles or organs over the user. | Body and face tracking (Deck 4 healthcare examples) | [Guide](004-anatomy-overlay/README.md) | Planned |
-| [5](005-marker-based-textbook/) | Marker-Based Textbook | Point at a printed diagram (a heart or an engine) and an animated 3D model pops up off the page. | Image marker tracking | [Guide](005-marker-based-textbook/README.md) | Planned |
-| [6](006-ar-quiz-lens/) | AR Quiz Lens | Questions float above the user's head and they answer by tilting their head left or right. | Face tracking, head-gesture input | [Guide](006-ar-quiz-lens/README.md) | Planned |
-| [7](007-virtual-try-on/) | Virtual Try-On | Glasses, a lab coat or a safety helmet on the user. | Face and body tracking (retail and industry use cases) | [Guide](007-virtual-try-on/README.md) | Planned |
-| [8](008-heritage-site-portal/) | Portal to a Heritage Site | A doorway on the floor that you walk through into a 360° monument or museum scene. | World tracking, portals and 360° environments | [Guide](008-heritage-site-portal/README.md) | Planned |
-| [9](009-chemistry-molecule-builder/) | Chemistry Molecule Builder | Tap to add atoms on a surface and watch bonds form, such as H₂O or CO₂. | Surface tracking, tap interaction, scripting | [Guide](009-chemistry-molecule-builder/README.md) | Planned |
-| [10](010-campus-wayfinding-sign/) | Campus Wayfinding Sign | Point at a building marker to get floating arrows and info about labs and departments. | Image marker tracking, spatial UI | [Guide](010-campus-wayfinding-sign/README.md) | Planned |
+| # | Lens | What you build | XR concept | Guide |
+|---|------|----------------|------------|-------|
+| [1](001-3d-axis-explorer/) | 3D Axis Explorer | A world lens that places a cube in the room. Drag to move it, pinch to scale it and swipe with one finger to spin it. | World tracking, 3D coordinates and transforms (Deck 1 spatial concepts) | [Guide](001-3d-axis-explorer/README.md) |
+| [2](002-face-filter-name-badge/) | Face-Filter Name Badge | A head-tracked lens that floats the user's name, a department and a logo above their head. | Face tracking | [Guide](002-face-filter-name-badge/README.md) |
+| [3](003-solar-system-on-the-table/) | Solar System on the Table | Surface tracking puts the solar system on a table. The planets orbit at their real speed ratios and a name floats above each one. | Surface tracking, 3D text labels | [Guide](003-solar-system-on-the-table/README.md) |
+| [4](004-anatomy-overlay/) | Anatomy Overlay | Body or face tracking shows the skull, muscles or organs over the user. | Body and face tracking (Deck 4 healthcare examples) | [Guide](004-anatomy-overlay/README.md) |
+| [5](005-marker-based-textbook/) | Marker-Based Textbook | Point at a printed diagram (a heart or an engine) and an animated 3D model pops up off the page. | Image marker tracking | [Guide](005-marker-based-textbook/README.md) |
+| [6](006-ar-quiz-lens/) | AR Quiz Lens | Questions float above the user's head and they answer by tilting their head left or right. | Face tracking, head-gesture input | [Guide](006-ar-quiz-lens/README.md) |
+| [7](007-virtual-try-on/) | Virtual Try-On | Glasses, a lab coat or a safety helmet on the user. | Face and body tracking (retail and industry use cases) | [Guide](007-virtual-try-on/README.md) |
+| [8](008-heritage-site-portal/) | Portal to a Heritage Site | A doorway on the floor that you walk through into a 360° monument or museum scene. | World tracking, portals and 360° environments | [Guide](008-heritage-site-portal/README.md) |
+| [9](009-chemistry-molecule-builder/) | Chemistry Molecule Builder | Tap to add atoms on a surface and watch bonds form, such as H₂O or CO₂. | Surface tracking, tap interaction, scripting | [Guide](009-chemistry-molecule-builder/README.md) |
+| [10](010-campus-wayfinding-sign/) | Campus Wayfinding Sign | Point at a building marker to get floating arrows and info about labs and departments. | Image marker tracking, spatial UI | [Guide](010-campus-wayfinding-sign/README.md) |
 
 ## Folder layout
 
