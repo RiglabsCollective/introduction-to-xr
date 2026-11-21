@@ -1,0 +1,17 @@
+# Lens Studio generated / cache
+Cache/
+**/Cache/
+Workspaces/
+**/Workspaces/
+*.lsproj.bak
+*.esproj.bak
+Support/StudioLib.d.ts
+Export/
+*.lns
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
