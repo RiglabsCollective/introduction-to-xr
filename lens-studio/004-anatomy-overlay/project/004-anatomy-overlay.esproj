@@ -13,9 +13,10 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: Anatomy Overlay
   lensDescriptors:
-    []
+    - AI_MUTATED
+    - GEN_AI_ICON
   lensApplicableContext:
     - live_camera
     - reply_camera
@@ -27,7 +28,7 @@ metaInfo:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
+  iconHash: ac033d3f040333639e40342d4b336da1
   videoPreviewHash: ""
   localizationsHash: ""
   fromTemplateName: Default

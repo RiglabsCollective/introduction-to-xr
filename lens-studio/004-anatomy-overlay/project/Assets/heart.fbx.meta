@@ -1,0 +1,107 @@
+- !<AssetImportMetadata/dddff498-e746-48d1-bd31-3eca68f4733a>
+  ImportedAssetIds:
+    .hidden/Heart Tex: !<reference> d165fb3a-b9ee-4864-acd7-962050f4e2c9
+    .hidden/white: !<reference> fc3f3305-0e19-415f-b61a-886ef88798a3
+    26ba073d67b9d0dd: !<reference> 81157137-34a4-47a9-b3f7-170796e45c95
+    6d7c09c435f9576c: !<reference> 27892ca4-1522-4c4e-a96f-2633b9b62a49
+    Materials/Heart Tex: !<reference> 94d5f890-2add-4f4e-bb9f-8453831480fa
+    Materials/Heart Tex|Heart Tex|GraphPassInfo: !<reference> 716409e0-2ff6-4a0b-abf6-b9836ac332ec
+    Meshes/hart_ZBrush_defualt_group: !<reference> af8f6cee-64c6-4818-86a0-a5f72b09bddf
+    Scene: !<reference> 3c724180-5aad-4bb9-b792-bd5e65f1394f
+    Textures/hart_UV_low01_BaseColor.hart_UV_low_defaultMat: !<reference> 7968bb65-1bee-48f2-b0e8-e72c3add7426
+    Textures/hart_UV_low01_Normal.hart_UV_low_defaultMat: !<reference> 3b548bec-5d5d-45ad-8972-606dbff81a95
+    ee580331c8935d90: !<reference> 8b4feb48-be3d-46e3-89a4-3bf777034b8c
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 3c724180-5aad-4bb9-b792-bd5e65f1394f
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 24bfbad7-1978-46fa-b45f-78a5e2adb5e8
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+      Performance Compression: !<PerformanceCompressionSettings>
+        Level: Medium
+        Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/24bfbad7-1978-46fa-b45f-78a5e2adb5e8>
+  Prototype: !<ObjectOwner/7819d338-27ae-4f97-8de3-b618e20c063d>
+    PackagePath: ""
+    objects:
+      - !<own> 81157137-34a4-47a9-4c08-e8f8691ba36a
+- !<SceneObject/27892ca4-1522-4c4e-5690-d9cc4649d5b6>
+  PrefabRemaps:
+    []
+  Name: "hart:ZBrush_defualt_group"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 286.365143, y: 286.365143, z: 286.365143}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8b4feb48-be3d-46e3-765b-c40888fcb473
+- !<SceneObject/81157137-34a4-47a9-4c08-e8f8691ba36a>
+  PrefabRemaps:
+    []
+  Name: heart
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 27892ca4-1522-4c4e-5690-d9cc4649d5b6
+  Components:
+    []
+- !<RenderMeshVisual/8b4feb48-be3d-46e3-765b-c40888fcb473>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 94d5f890-2add-4f4e-bb9f-8453831480fa
+  Mesh: !<reference> af8f6cee-64c6-4818-86a0-a5f72b09bddf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

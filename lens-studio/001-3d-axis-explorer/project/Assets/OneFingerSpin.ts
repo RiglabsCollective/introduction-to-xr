@@ -12,6 +12,10 @@
  * The two-finger twist from the Manipulate component covers the third
  * (roll) direction.
  *
+ * Set "Max Tilt Degrees" (for example 25) to stop the object from tipping
+ * over: turning left and right stays free, but up and down tilt is limited
+ * to that many degrees either way from upright.
+ *
  * As soon as a second finger touches, spinning pauses so pinch and twist
  * from the Manipulate component work without fighting this script.
  */
@@ -28,6 +32,10 @@ export class OneFingerSpin extends BaseScriptComponent {
     @input
     @hint("On: drag in any direction to tumble freely. Off: left/right only (turntable).")
     freeRotation: boolean = true;
+
+    @input
+    @hint("How far the object may tilt away from upright, in degrees, so it can't flip over. 180 means no limit. 25 keeps it within 25 degrees.")
+    maxTiltDegrees: number = 180;
 
     private interaction: InteractionComponent;
     private activeTouches: { [id: number]: boolean } = {};
@@ -98,6 +106,25 @@ export class OneFingerSpin extends BaseScriptComponent {
         const yaw = quat.angleAxis(dx * k, up);
         const pitch = quat.angleAxis(dy * k, right);
         const t = this.getTransform();
-        t.setWorldRotation(pitch.multiply(yaw).multiply(t.getWorldRotation()));
+        let next = pitch.multiply(yaw).multiply(t.getWorldRotation());
+
+        // Keep the object from tilting too far: measure how far its up direction
+        // has leaned away from the world's up, and swing it back if it is past the limit.
+        if (this.maxTiltDegrees < 180) {
+            const objectUp = next.multiplyVec3(vec3.up());
+            const cosTilt = Math.min(1, Math.max(-1, objectUp.dot(vec3.up())));
+            const tilt = Math.acos(cosTilt) * MathUtils.RadToDeg;
+            if (tilt > this.maxTiltDegrees) {
+                const axis = objectUp.cross(vec3.up());
+                if (axis.length > 0.0001) {
+                    const back = quat.angleAxis(
+                        (tilt - this.maxTiltDegrees) * MathUtils.DegToRad,
+                        axis.normalize()
+                    );
+                    next = back.multiply(next);
+                }
+            }
+        }
+        t.setWorldRotation(next);
     }
 }

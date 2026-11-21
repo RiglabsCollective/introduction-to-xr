@@ -3,6 +3,9 @@
   objects:
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
+    - !<own> 4d0137ca-d69d-4bc3-9206-abd5ddf8d2d4
+    - !<own> ae957e9b-6dcc-4b4b-827c-3e2dbcfc24e1
+    - !<own> 43ac18f7-2575-4a54-a7a9-cbbcc6e72356
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -10,6 +13,8 @@
   RenderPreviewOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
   RenderOverlayOutput: !<reference> 00000000-0000-0000-0000-000000000000
   PhysicsRootWorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  HiddenInCaptureLayers: 0
+  HiddenInDisplayLayers: 0
   PrefabPreviewEnvironmentInitialized: false
   PrefabPreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/00000000-0000-0065-0000-000000000064>
@@ -27,6 +32,7 @@
     []
   Components:
     - !<own> 00000000-0000-0065-0000-000000000065
+    - !<own> d5d91f1f-97c1-4a4e-b0a7-3e3cf0b003ee
 - !<Camera/00000000-0000-0065-0000-000000000065>
   PrefabRemaps:
     []
@@ -121,7 +127,7 @@
   OuterConeAngle: 45.000000
   FalloffType: None
   FalloffRange: .inf
-  ShadowType: None
+  ShadowType: ShadowMap
 - !<SceneObject/00056e79-b066-62ca-0000-000000001406>
   PrefabRemaps:
     []
@@ -170,3 +176,367 @@
   FalloffType: None
   FalloffRange: .inf
   ShadowType: None
+- !<SceneObject/1ed1db60-da4d-4b1b-845b-ad0cf567939f>
+  PrefabRemaps:
+    []
+  Name: Pulmonary artery
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 5.100000, y: 8.200000, z: 9.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/39a2ac77-2da6-4b6f-bdaf-d84e5186c206>
+  PrefabRemaps:
+    []
+  Name: "hart:ZBrush_defualt_group"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 286.365143, y: 286.365143, z: 286.365143}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b0a95bf7-344a-403a-9ab7-541fa0defb53
+- !<SceneObject/3b10dc26-87fa-4f48-bffc-2454475e63df>
+  PrefabRemaps:
+    []
+  Name: Right ventricle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.600000, y: -5.100000, z: 9.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/407eaf40-442f-4d09-8f61-5bc04dd10c0d>
+  PrefabRemaps:
+    - 39a2ac77-2da6-4b6f-bdaf-d84e5186c206: 27892ca4-1522-4c4e-5690-d9cc4649d5b6
+    - 407eaf40-442f-4d09-8f61-5bc04dd10c0d: 81157137-34a4-47a9-4c08-e8f8691ba36a
+    - b0a95bf7-344a-403a-9ab7-541fa0defb53: 8b4feb48-be3d-46e3-765b-c40888fcb473
+  Name: Heart Model
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.032600, y: 0.032600, z: 0.032600}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 39a2ac77-2da6-4b6f-bdaf-d84e5186c206
+  Components:
+    []
+- !<SceneObject/43ac18f7-2575-4a54-a7a9-cbbcc6e72356>
+  PrefabRemaps:
+    []
+  Name: Ground Shadow
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -70.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 60.000000, y: 60.000000, z: 60.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fe6419b4-53e1-4f00-a359-2fffa17f70e4
+- !<SceneObject/46c3c515-f1fb-4b1e-8360-8bba7c7074c1>
+  PrefabRemaps:
+    []
+  Name: Apex
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 2.800000, y: -14.600000, z: 9.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/4b561ef8-14ca-42bb-acf6-8f494d149045>
+  PrefabRemaps:
+    []
+  Name: Coronary arteries
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1.000000, y: 0.800000, z: 9.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/4d0137ca-d69d-4bc3-9206-abd5ddf8d2d4>
+  PrefabRemaps:
+    []
+  Name: Heart
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 30.000000, z: -70.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 407eaf40-442f-4d09-8f61-5bc04dd10c0d
+    - !<own> c002e1ed-0e27-4f84-99e7-a21514fc8a4b
+  Components:
+    - !<own> 52da75d0-c0c4-4281-bbfa-4746586a6fec
+    - !<own> 817ab145-3be1-4bbb-b486-3a276ac31bbf
+    - !<own> 9a716634-301b-47aa-a8f9-c41730b1203a
+- !<InteractionComponent/52da75d0-c0c4-4281-bbfa-4746586a6fec>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0065-0000-000000000065
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    - !<reference> b0a95bf7-344a-403a-9ab7-541fa0defb53
+- !<ManipulateComponent/817ab145-3be1-4bbb-b486-3a276ac31bbf>
+  PrefabRemaps:
+    []
+  Name: Manipulate
+  Enabled: true
+  Scale: true
+  Drag: false
+  Rotate: true
+  MinDistance: 0.000000
+  MaxDistance: 1000.000000
+  MinScale: 0.010000
+  MaxScale: 20.000000
+- !<ScriptComponent/9a716634-301b-47aa-a8f9-c41730b1203a>
+  PrefabRemaps:
+    []
+  Name: OneFingerSpin
+  Enabled: true
+  ScriptAsset: !<reference> d2170ee5-5e11-4802-99fb-65dc24e87faf
+  ScriptInputsDefault:
+    degreesPerScreenWidth: true
+    freeRotation: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      camera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      degreesPerScreenWidth: !<float> 360.000000
+      freeRotation: true
+      maxTiltDegrees: !<float> 25.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/a2a0403e-76a4-46b3-8d75-2667d8793839>
+  PrefabRemaps:
+    []
+  Name: Superior vena cava
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -5.900000, y: 12.600000, z: 9.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ae957e9b-6dcc-4b4b-827c-3e2dbcfc24e1>
+  PrefabRemaps:
+    []
+  Name: HeartAnnotations
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> afcf2072-f7df-45e5-9f84-b710175abd51
+- !<ScriptComponent/afcf2072-f7df-45e5-9f84-b710175abd51>
+  PrefabRemaps:
+    []
+  Name: Annotations
+  Enabled: true
+  ScriptAsset: !<reference> 199ac67f-220a-4e7d-afbd-5d6d9e646387
+  ScriptInputsDefault:
+    font: true
+    fontSize: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      camera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      centerObject: !<reference.SceneObject> 4d0137ca-d69d-4bc3-9206-abd5ddf8d2d4
+      font: !<reference.Font> 00000000-0000-0000-0000-000000000000
+      labelMaterial: !<reference.Material> ec1133c4-103a-4288-a773-70818f0ba7fd
+      fontSize: !<float> 48.000000
+      labelScale: !<float> 5.000000
+      dotMesh: !<reference.RenderMesh> f1801330-ee7e-4780-8bf0-591f73a2ee23
+      dotMaterial: !<reference.Material> 891bd0e9-f805-492e-8592-539521496103
+      dotSize: 1.200000
+      annotations:
+        - target: !<reference.SceneObject> a2a0403e-76a4-46b3-8d75-2667d8793839
+          labelText: Superior vena cava
+          labelOffset: !<Vec3> {x: 1.500000, y: 2.000000, z: 3.000000}
+        - target: !<reference.SceneObject> bf56bded-e01c-4aac-8cda-3c1ced5a07f4
+          labelText: Aorta
+          labelOffset: !<Vec3> {x: 1.500000, y: 3.000000, z: 3.000000}
+        - target: !<reference.SceneObject> 1ed1db60-da4d-4b1b-845b-ad0cf567939f
+          labelText: Pulmonary artery
+          labelOffset: !<Vec3> {x: 1.500000, y: 0.000000, z: 3.000000}
+        - target: !<reference.SceneObject> f5d8ff28-37c1-4581-823b-71f2d23e7e75
+          labelText: Right atrium
+          labelOffset: !<Vec3> {x: 1.500000, y: 0.000000, z: 3.000000}
+        - target: !<reference.SceneObject> 3b10dc26-87fa-4f48-bffc-2454475e63df
+          labelText: Right ventricle
+          labelOffset: !<Vec3> {x: 1.500000, y: -2.000000, z: 3.000000}
+        - target: !<reference.SceneObject> c4a2f54b-4d47-4d8f-b098-0d2cfb27d2ae
+          labelText: Left ventricle
+          labelOffset: !<Vec3> {x: 1.500000, y: -1.000000, z: 3.000000}
+        - target: !<reference.SceneObject> 4b561ef8-14ca-42bb-acf6-8f494d149045
+          labelText: Coronary arteries
+          labelOffset: !<Vec3> {x: 1.500000, y: 0.000000, z: 3.000000}
+        - target: !<reference.SceneObject> 46c3c515-f1fb-4b1e-8360-8bba7c7074c1
+          labelText: Apex
+          labelOffset: !<Vec3> {x: 1.500000, y: -2.000000, z: 3.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/b0a95bf7-344a-403a-9ab7-541fa0defb53>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 94d5f890-2add-4f4e-bb9f-8453831480fa
+  Mesh: !<reference> af8f6cee-64c6-4818-86a0-a5f72b09bddf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bf56bded-e01c-4aac-8cda-3c1ced5a07f4>
+  PrefabRemaps:
+    []
+  Name: Aortic arch
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1.900000, y: 11.900000, z: 9.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/c002e1ed-0e27-4f84-99e7-a21514fc8a4b>
+  PrefabRemaps:
+    []
+  Name: Heart Points
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a2a0403e-76a4-46b3-8d75-2667d8793839
+    - !<own> bf56bded-e01c-4aac-8cda-3c1ced5a07f4
+    - !<own> 1ed1db60-da4d-4b1b-845b-ad0cf567939f
+    - !<own> f5d8ff28-37c1-4581-823b-71f2d23e7e75
+    - !<own> 3b10dc26-87fa-4f48-bffc-2454475e63df
+    - !<own> c4a2f54b-4d47-4d8f-b098-0d2cfb27d2ae
+    - !<own> 4b561ef8-14ca-42bb-acf6-8f494d149045
+    - !<own> 46c3c515-f1fb-4b1e-8360-8bba7c7074c1
+  Components:
+    []
+- !<SceneObject/c4a2f54b-4d47-4d8f-b098-0d2cfb27d2ae>
+  PrefabRemaps:
+    []
+  Name: Left ventricle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 4.500000, y: -6.500000, z: 9.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<DeviceTracking/d5d91f1f-97c1-4a4e-b0a7-3e3cf0b003ee>
+  PrefabRemaps:
+    []
+  Name: Device Tracking
+  Enabled: true
+  DeviceTrackingMode: Surface
+  RotationOptions: !<RotationOptions>
+    InvertRotation: false
+  SurfaceOptions: !<SurfaceOptions>
+    EnhanceWithNativeAR: false
+- !<SceneObject/f5d8ff28-37c1-4581-823b-71f2d23e7e75>
+  PrefabRemaps:
+    []
+  Name: Right atrium
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -8.400000, y: 3.000000, z: 9.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/fe6419b4-53e1-4f00-a359-2fffa17f70e4>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Receiver
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8562a52d-3da8-4dbe-8225-bac0e9d9b0ba
+  Mesh: !<reference> 59b7ebc3-0a67-4903-afe4-2c577dd40721
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

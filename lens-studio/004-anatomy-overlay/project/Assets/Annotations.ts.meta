@@ -1,0 +1,81 @@
+- !<AssetImportMetadata/d10c7e07-a327-4512-9ff4-48daab6fd290>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 199ac67f-220a-4e7d-afbd-5d6d9e646387
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 199ac67f-220a-4e7d-afbd-5d6d9e646387
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4ae88a4f-2fa2-4159-8bc8-d30c6fff80a1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4ae88a4f-2fa2-4159-8bc8-d30c6fff80a1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  RunInEditor: false
+  ComponentUid: 3e5db883-4d10-4645-8d50-e198b1f776ba
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    annotations: false
+    camera: false
+    centerObject: false
+    dotMaterial: false
+    dotMesh: false
+    dotSize: false
+    font: false
+    fontSize: false
+    labelMaterial: false
+    labelScale: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      centerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      font: !<reference.Font> 00000000-0000-0000-0000-000000000000
+      labelMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      fontSize: !<float> 48.000000
+      labelScale: 0.400000
+      dotMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      dotMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      dotSize: 0.800000
+      annotations:
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.Camera camera {"hint":"The camera every label turns to face (usually Camera Object)."}'
+    - '// @input SceneObject centerObject {"hint":"The centre of the face or object. Labels fan out sideways away from it."}'
+    - '// @input Asset.Font font {"hint":"The font used for every label. Leave it empty to use the default font."}'
+    - '// @input Asset.Material labelMaterial {"hint":"The material used for every label. Leave it empty for the default text material."}'
+    - '// @input float fontSize = 48 {"hint":"Font size of the label text."}'
+    - '// @input float labelScale = 0.4 {"hint":"Size of every label in the world. Raise it to make all the labels bigger."}'
+    - '// @input Asset.RenderMesh dotMesh {"hint":"The mesh for the marker dots (a sphere). Leave it empty for no dots."}'
+    - '// @input Asset.Material dotMaterial {"hint":"The material for the marker dots. Choose a colour that shows up."}'
+    - '// @input float dotSize = 0.8 {"hint":"Diameter of the marker dots, in centimetres."}'
+    - /*
+    - "@typedef Annotation"
+    - '@property {SceneObject} target {"hint":"The object the label points at."}'
+    - '@property {string} labelText {"hint":"The words shown on the label."}'
+    - '@property {vec3} labelOffset = {4,3,2} {"hint":"X: gap between the dot and the text, sideways. Y: up. Z: towards the camera. In centimetres."}'
+    - "*/"
+    - '// @input Annotation[] annotations {"hint":"One slot per label: the target, the words and where the label floats."}'

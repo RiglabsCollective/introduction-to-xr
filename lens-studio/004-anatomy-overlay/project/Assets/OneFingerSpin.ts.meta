@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/ddd75c49-0c01-4b27-bd4d-07ab829c9c0b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d2170ee5-5e11-4802-99fb-65dc24e87faf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d2170ee5-5e11-4802-99fb-65dc24e87faf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7f9214ff-a76b-45f9-a3c8-9378f2c9d433
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7f9214ff-a76b-45f9-a3c8-9378f2c9d433>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  RunInEditor: false
+  ComponentUid: 50253586-33d2-4ec5-9204-8abba5d4b239
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    degreesPerScreenWidth: false
+    freeRotation: false
+    maxTiltDegrees: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      degreesPerScreenWidth: !<float> 360.000000
+      freeRotation: true
+      maxTiltDegrees: !<float> 180.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.Camera camera {"hint":"The camera that renders this object (usually Camera Object)."}'
+    - '// @input float degreesPerScreenWidth = 360 {"hint":"Degrees of spin for a drag across the full width (or height) of the screen."}'
+    - '// @input bool freeRotation = true {"hint":"On: drag in any direction to tumble freely. Off: left/right only (turntable)."}'
+    - "// @input float maxTiltDegrees = 180 {\"hint\":\"How far the object may tilt away from upright, in degrees, so it can't flip over. 180 means no limit. 25 keeps it within 25 degrees.\"}"
