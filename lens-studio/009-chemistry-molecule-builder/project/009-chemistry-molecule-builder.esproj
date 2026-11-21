@@ -10,29 +10,29 @@ updateCheckpoint: 111
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 metaInfo:
   hints:
-    []
+    - lens_hint_try_rear_camera
   tags:
     []
-  lensName: Untitled
+  lensName: Chemistry Time
   lensDescriptors:
-    []
+    - AI_MUTATED
+    - GEN_AI_ICON
   lensApplicableContext:
     - live_camera
     - reply_camera
     - video_chat
   lensApplicability:
-    - Front
     - Back
   lensClientCompatibilities:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: 84563ba45569c70afdf3ab6b256dabac
+  videoPreviewHash: cb63381569ee6469680fec525581dfe5
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423
-  activationCamera: Front
+  activationCamera: Rear
   sourceMapEnabled: false
   shaderCacheInvalidationEnabled: false
   usingMinClientVersions: false

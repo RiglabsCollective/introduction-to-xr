@@ -10,29 +10,29 @@ updateCheckpoint: 111
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 metaInfo:
   hints:
-    []
+    - lens_hint_try_rear_camera
   tags:
     []
-  lensName: Untitled
+  lensName: Way Finder
   lensDescriptors:
-    []
+    - AI_MUTATED
+    - GEN_AI_ICON
   lensApplicableContext:
     - live_camera
     - reply_camera
     - video_chat
   lensApplicability:
-    - Front
     - Back
   lensClientCompatibilities:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: a92e7db7689cd957304bf8c1df04772b
+  videoPreviewHash: 6a87a7485b5e89a4f27b3043481d5c73
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423
-  activationCamera: Front
+  activationCamera: Rear
   sourceMapEnabled: false
   shaderCacheInvalidationEnabled: false
   usingMinClientVersions: false

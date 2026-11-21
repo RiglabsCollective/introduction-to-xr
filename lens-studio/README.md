@@ -12,8 +12,8 @@ Build each lens yourself by following its guide. Every file the guides ask for i
 | [6](006-ar-quiz-lens/) | AR Quiz Lens | A quiz floats above your head. Raise your eyebrows or open your mouth to pick an answer. | Face tracking, facial-expression input, the Behavior script (no code) | [Guide](006-ar-quiz-lens/README.md) |
 | [7](007-virtual-try-on/) | Virtual Try-On | Glasses and a safety helmet on your face. Tap the screen to try the next one. | Face tracking, 3D accessories, the Behavior script (retail and industry use cases) | [Guide](007-virtual-try-on/README.md) |
 | [8](008-heritage-site-portal/) | Portal to a Heritage Site | A stone doorway stands on the floor. Look through it at a 360° fortress, then walk through into the scene. | World tracking, portals and 360° environments | [Guide](008-heritage-site-portal/README.md) |
-| [9](009-chemistry-molecule-builder/) | Chemistry Molecule Builder | Tap to add atoms on a surface and watch bonds form, such as H₂O or CO₂. | Surface tracking, tap interaction, scripting | [Guide](009-chemistry-molecule-builder/README.md) |
-| [10](010-campus-wayfinding-sign/) | Campus Wayfinding Sign | Point at a building marker to get floating arrows and info about labs and departments. | Image marker tracking, spatial UI | [Guide](010-campus-wayfinding-sign/README.md) |
+| [9](009-chemistry-molecule-builder/) | Chemistry Molecule Builder | Tap to add atoms to a molecule floating in the room and watch the bonds form, building water (H₂O) and then carbon dioxide (CO₂). | Surface tracking, tap interaction, the Behavior script (no code) | [Guide](009-chemistry-molecule-builder/README.md) |
+| [10](010-campus-wayfinding-sign/) | Campus Wayfinding Sign | A signpost stands on the ground with no marker needed. Tap a sign to open an information card and light up a path of arrows on the floor. | Surface tracking (markerless), spatial UI, the Behavior script (no code) | [Guide](010-campus-wayfinding-sign/README.md) |
 
 ## Folder layout
 
