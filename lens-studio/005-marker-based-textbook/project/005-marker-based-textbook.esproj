@@ -13,9 +13,9 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: V8 Engine
   lensDescriptors:
-    []
+    - AI_MUTATED
   lensApplicableContext:
     - live_camera
     - reply_camera
@@ -27,8 +27,8 @@ metaInfo:
     - Mobile
     - CameraKit
   platformBundlesEnabled: false
-  iconHash: ""
-  videoPreviewHash: ""
+  iconHash: 755e908ad4fa15deb453e30cd2a448fc
+  videoPreviewHash: f57f940323883a735b3fea4cc4884d0b
   localizationsHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.25.0.26111423
