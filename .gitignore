@@ -6,8 +6,6 @@ Workspaces/
 *.lsproj.bak
 *.esproj.bak
 Support/StudioLib.d.ts
-Export/
-*.lns
 
 # OS / editor
 .DS_Store

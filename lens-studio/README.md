@@ -35,6 +35,15 @@ lens-studio/
 
 ## Before you start
 
-- Install Lens Studio (each guide states the version it was written with).
+- Install **Lens Studio 5.25** or later (Windows or macOS). Every lens here is built and tested on 5.25.
 - Install the Snapchat app on your phone to test lenses.
 - If you clone with Git, run `git lfs install` first so large models and images download properly.
+
+## Windows and macOS
+
+Every project in this folder opens on both Windows and macOS. To keep it that way:
+
+- **Windows users cloning with Git:** run `git config --global core.longpaths true` once, so long asset paths don't fail.
+- **Open the project folder, not a copy of the Cache:** Lens Studio rebuilds `Cache/` and `Workspaces/` on each machine, so they are not in the repo.
+- **File names:** use lowercase letters, numbers and hyphens only. No spaces, and nothing that differs only by capital letters (`Cube.png` and `cube.png` are the same file on Windows and macOS).
+- **Finished lens:** each lens folder may include an exported `.lns` file, which works the same on both systems.

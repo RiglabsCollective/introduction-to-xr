@@ -3,7 +3,7 @@
 **What you will build:** A world lens that drops a cube with red X, green Y and blue Z arrows. Pinch to move, rotate and scale it.
 **XR concept:** World tracking, 3D coordinates and transforms (Deck 1 spatial concepts)
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)

@@ -3,7 +3,7 @@
 **What you will build:** A head-tracked lens that shows the faculty member's name, department and a college logo.
 **XR concept:** Face tracking
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)

@@ -3,7 +3,7 @@
 **What you will build:** Point at a building marker to get floating arrows and info about labs and departments.
 **XR concept:** Image marker tracking, spatial UI
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)

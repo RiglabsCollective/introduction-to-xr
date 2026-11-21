@@ -1,3 +1,22 @@
+# Same line endings on Windows and macOS: Git stores LF, each OS checks out what it needs
+* text=auto
+
+# Lens Studio text files: always LF so diffs stay clean across Windows and macOS
+*.esproj text eol=lf
+*.meta text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ss_graph text eol=lf
+
+# Binary files: never touch line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ttf binary
+*.otf binary
+
 # Large binary assets go through Git LFS
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.obj filter=lfs diff=lfs merge=lfs -text
@@ -12,3 +31,5 @@
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 *.onnx filter=lfs diff=lfs merge=lfs -text
 *.lspkg filter=lfs diff=lfs merge=lfs -text
+*.lns filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text

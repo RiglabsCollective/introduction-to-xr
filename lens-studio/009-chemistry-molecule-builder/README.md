@@ -3,7 +3,7 @@
 **What you will build:** Tap to add atoms on a surface and watch bonds form, such as H₂O or CO₂.
 **XR concept:** Surface tracking, tap interaction, scripting
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)

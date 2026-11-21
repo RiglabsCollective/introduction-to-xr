@@ -3,7 +3,7 @@
 **What you will build:** Surface tracking puts planets in orbit on a table, and tapping a planet shows a fact card.
 **XR concept:** Surface tracking, tap interaction
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)

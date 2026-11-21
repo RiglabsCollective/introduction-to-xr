@@ -3,7 +3,7 @@
 **What you will build:** Point at a printed diagram (a heart or an engine) and an animated 3D model pops up off the page.
 **XR concept:** Image marker tracking
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)

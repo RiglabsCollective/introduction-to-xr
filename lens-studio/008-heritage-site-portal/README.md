@@ -3,7 +3,7 @@
 **What you will build:** A doorway on the floor that you walk through into a 360° monument or museum scene.
 **XR concept:** World tracking, portals and 360° environments
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)

@@ -3,7 +3,7 @@
 **What you will build:** Body or face tracking shows the skull, muscles or organs over the user.
 **XR concept:** Body and face tracking (Deck 4 healthcare examples)
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)

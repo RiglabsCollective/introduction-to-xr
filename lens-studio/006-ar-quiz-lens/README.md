@@ -3,7 +3,7 @@
 **What you will build:** Questions float above the user's head and they answer by tilting their head left or right.
 **XR concept:** Face tracking, head-gesture input
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)

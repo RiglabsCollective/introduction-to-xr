@@ -3,7 +3,7 @@
 **What you will build:** Glasses, a lab coat or a safety helmet on the user.
 **XR concept:** Face and body tracking (retail and industry use cases)
 **Course day:**
-**Lens Studio version:**
+**Lens Studio version:** 5.25 (Windows and macOS)
 **Time:** about __ minutes
 
 ![Finished lens](guide-images/preview.png)
