@@ -9,5 +9,5 @@ Course material for the 25-hour Faculty Development Programme **Introduction to 
 ## How to use this repo
 
 1. Click **Code → Download ZIP** (or clone with Git).
-2. Open `lens-studio/`, pick a lens and open its `GUIDE.md`.
+2. Open `lens-studio/`, pick a lens and open its `README.md`.
 3. Use the files in `lens-studio/assets/` while you follow the steps.
