@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/ce5a3ed3-258c-4c07-a046-d8b046de1fd1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4f703eff-3e27-4daf-ab68-73008f034fd4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4f703eff-3e27-4daf-ab68-73008f034fd4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 37580465-910f-4d67-87d4-213d4646215a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/37580465-910f-4d67-87d4-213d4646215a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  RunInEditor: false
+  ComponentUid: 99ed890b-445f-4438-ac42-623b1a62c322
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    degreesPerScreenWidth: false
+    freeRotation: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      degreesPerScreenWidth: !<float> 360.000000
+      freeRotation: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.Camera camera {"hint":"The camera that renders this object (usually Camera Object)."}'
+    - '// @input float degreesPerScreenWidth = 360 {"hint":"Degrees of spin for a drag across the full width (or height) of the screen."}'
+    - '// @input bool freeRotation = true {"hint":"On: drag in any direction to tumble freely. Off: left/right only (turntable)."}'

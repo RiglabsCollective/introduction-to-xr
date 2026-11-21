@@ -3,6 +3,8 @@
   objects:
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
+    - !<own> 91fb0da0-006c-42d8-9bae-1fd8d5353fa5
+    - !<own> bd3cffcb-9593-47df-b5e2-2e5b33b0ded2
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -29,6 +31,7 @@
     []
   Components:
     - !<own> 00000000-0000-0065-0000-000000000065
+    - !<own> 6326e9d6-ff59-418a-aa58-c76b9cc1095d
 - !<Camera/00000000-0000-0065-0000-000000000065>
   PrefabRemaps:
     []
@@ -172,3 +175,137 @@
   FalloffType: None
   FalloffRange: .inf
   ShadowType: None
+- !<ScriptComponent/46b0ee1c-6ac9-4b10-9583-e27ecbf68aef>
+  PrefabRemaps:
+    []
+  Name: OneFingerSpin
+  Enabled: true
+  ScriptAsset: !<reference> 4f703eff-3e27-4daf-ab68-73008f034fd4
+  ScriptInputsDefault:
+    degreesPerScreenWidth: true
+    freeRotation: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      camera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      degreesPerScreenWidth: !<float> 360.000000
+      freeRotation: true
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/55818a04-b6e8-4fdc-9e0a-5ce2b41fb8d5>
+  PrefabRemaps:
+    []
+  Name: TouchBlocking
+  Enabled: true
+  ScriptAsset: !<reference> eb6e6644-7e4d-448f-bd3f-dc3be1fe4399
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<DeviceTracking/6326e9d6-ff59-418a-aa58-c76b9cc1095d>
+  PrefabRemaps:
+    []
+  Name: Device Tracking
+  Enabled: true
+  DeviceTrackingMode: World
+  RotationOptions: !<RotationOptions>
+    InvertRotation: false
+  SurfaceOptions: !<SurfaceOptions>
+    EnhanceWithNativeAR: false
+- !<SceneObject/91fb0da0-006c-42d8-9bae-1fd8d5353fa5>
+  PrefabRemaps:
+    []
+  Name: Axis Cube
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 5.000000, z: -60.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a52c6b40-8305-45ed-8eea-9bee023204d6
+  Components:
+    - !<own> 9f434c5a-f75f-4065-be2e-a40bea3ce5ea
+    - !<own> a31556e1-1409-45de-9c6c-664b16b82809
+    - !<own> 46b0ee1c-6ac9-4b10-9583-e27ecbf68aef
+- !<InteractionComponent/9f434c5a-f75f-4065-be2e-a40bea3ce5ea>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0065-0000-000000000065
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    - !<reference> d293830b-bf1e-4dfe-a0cf-d318028e959f
+- !<ManipulateComponent/a31556e1-1409-45de-9c6c-664b16b82809>
+  PrefabRemaps:
+    []
+  Name: Manipulate
+  Enabled: true
+  Scale: true
+  Drag: true
+  Rotate: false
+  MinDistance: 20.000000
+  MaxDistance: 100.000000
+  MinScale: 0.500000
+  MaxScale: 2.000000
+- !<SceneObject/a52c6b40-8305-45ed-8eea-9bee023204d6>
+  PrefabRemaps:
+    []
+  Name: Cube
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d293830b-bf1e-4dfe-a0cf-d318028e959f
+- !<SceneObject/bd3cffcb-9593-47df-b5e2-2e5b33b0ded2>
+  PrefabRemaps:
+    []
+  Name: Touch Blocking
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 55818a04-b6e8-4fdc-9e0a-5ce2b41fb8d5
+- !<RenderMeshVisual/d293830b-bf1e-4dfe-a0cf-d318028e959f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 58ac953e-52e3-4775-bf86-46c3b67a3497
+  Mesh: !<reference> 5e899863-4fac-4266-ae53-56d9233b9816
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

@@ -4,7 +4,7 @@ Build each lens yourself by following its guide. Every file the guides ask for i
 
 | # | Lens | What you build | XR concept | Guide | Status |
 |---|------|----------------|------------|-------|--------|
-| [1](001-3d-axis-explorer/) | 3D Axis Explorer | A world lens that drops a cube with red X, green Y and blue Z arrows. Pinch to move, rotate and scale it. | World tracking, 3D coordinates and transforms (Deck 1 spatial concepts) | [Guide](001-3d-axis-explorer/README.md) | Draft guide |
+| [1](001-3d-axis-explorer/) | 3D Axis Explorer | A world lens that places a cube in the room. Drag to move it, pinch to scale it and swipe with one finger to spin it. | World tracking, 3D coordinates and transforms (Deck 1 spatial concepts) | [Guide](001-3d-axis-explorer/README.md) | Draft guide |
 | [2](002-face-filter-name-badge/) | Face-Filter Name Badge | A head-tracked lens that shows the faculty member's name, department and a college logo. | Face tracking | [Guide](002-face-filter-name-badge/README.md) | Planned |
 | [3](003-solar-system-on-the-table/) | Solar System on the Table | Surface tracking puts planets in orbit on a table, and tapping a planet shows a fact card. | Surface tracking, tap interaction | [Guide](003-solar-system-on-the-table/README.md) | Planned |
 | [4](004-anatomy-overlay/) | Anatomy Overlay | Body or face tracking shows the skull, muscles or organs over the user. | Body and face tracking (Deck 4 healthcare examples) | [Guide](004-anatomy-overlay/README.md) | Planned |
