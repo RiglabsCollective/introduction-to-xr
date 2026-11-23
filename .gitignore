@@ -13,3 +13,7 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Lens Studio MCP config (contains a local bearer token)
+.mcp.json
+**/.mcp.json

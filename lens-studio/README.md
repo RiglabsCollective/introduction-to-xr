@@ -2,6 +2,8 @@
 
 Build each lens yourself by following its guide. Every file the guides ask for is in [`assets/`](assets/).
 
+**First time?** Do [Getting started with Lens Studio](GETTING-STARTED.md) first. It covers the download, your Snapchat account, testing on your phone and setting up VS Code.
+
 | # | Lens | What you build | XR concept | Guide |
 |---|------|----------------|------------|-------|
 | [1](001-3d-axis-explorer/) | 3D Axis Explorer | A world lens that places a cube in the room. Drag to move it, pinch to scale it and swipe with one finger to spin it. | World tracking, 3D coordinates and transforms (Deck 1 spatial concepts) | [Guide](001-3d-axis-explorer/README.md) |
