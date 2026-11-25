@@ -17,3 +17,8 @@ desktop.ini
 # Lens Studio MCP config (contains a local bearer token)
 .mcp.json
 **/.mcp.json
+
+# Local AI/agent files
+AGENTS.md
+CLAUDE.md
+.claude/
