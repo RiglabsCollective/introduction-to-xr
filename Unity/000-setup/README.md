@@ -67,6 +67,16 @@ A cube should now sit on the floor. Walk around it. It stays in place, which is 
 
 Change one thing at a time, and watch what moves.
 
+### Step 6 – Import the Starter package
+
+The lessons from 002 on start from the **Starter package**, one file that holds all the models, pictures and a clean starting scene.
+
+1. In the repository, find `Unity/packages/XR-Course-Starter.unitypackage`.
+2. Drag it into the **Project** window (or choose **Assets → Import Package → Custom Package**) and click **Import** with everything ticked.
+3. Open `Assets/Starter/Start`. This is the scene every lesson starts from. Use **File → Save As** to give your own copy the lesson's name, for example `002-Place-the-Heart`.
+
+Why one file? So anyone can set up a new project in a minute. The finished version of every lesson is in `Unity/xr-course` to compare, and `XR-Course-Final.unitypackage` holds the same finished scenes as a single file.
+
 ## Test on a phone
 
 ### Android

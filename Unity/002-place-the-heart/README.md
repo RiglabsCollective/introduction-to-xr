@@ -26,7 +26,7 @@ Do [Unity 000 – Set up](../000-setup/README.md) and [Unity 001 – Try the XR 
 
 ### Step 1 – Open the project
 
-Open the course project `Unity/xr-course` in Unity Hub (**Add → Add project from disk**). Then open the scene `Assets/Scenes/002-Place-the-Heart`. To follow along from scratch, start from `001-Try-the-XR-Foundation`, use **File → Save As** to make your own copy, and work in that.
+**Final:** open the course project `Unity/xr-course` in Unity Hub (**Add → Add project from disk**) and the scene `Assets/Scenes/002-Place-the-Heart` to compare. **Start:** make a new Mobile AR project (lesson 000), drag `Unity/packages/XR-Course-Starter.unitypackage` into the Project window and click **Import**, open `Assets/Starter/Start`, then **File → Save As** `002-Place-the-Heart` and work in that.
 
 ### Step 2 – Check the heart model
 

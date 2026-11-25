@@ -17,4 +17,11 @@ These are copies of the models and pictures used in the Lens Studio course (`len
 
 ## Scripts
 
-The few short scripts for the Unity projects will be added to `scripts/` when each project is written.
+The short scripts are printed in full in the guides. Copies are in the Final project at `xr-course/Assets/Shared/Scripts/`.
+
+| Script | Lesson | What it does |
+|--------|--------|--------------|
+| `AtomPicker.cs` | 004 Build a Molecule | A button calls `Pick(index)` to choose which atom the spawner places next |
+| `LabelBillboard.cs` | 005 Label the Parts | Turns a label to face the camera |
+| `LabelToggle.cs` | 005 Label the Parts | Switches all labels on and off |
+| `Spin.cs` | 006 Solar System | Spins an object around its up axis |

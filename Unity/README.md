@@ -16,7 +16,7 @@ One set-up, one try-out and six beginner projects for the course, built with **U
 
 The rule for these projects: **as little code as possible.** Most of the work is done with Unity's ready-made components, set up in the Inspector. Where a tiny script saves a lot of time, it is short, copied from the guide and explained line by line.
 
-> **Status: planning.** The project list is agreed. The guides are being written one at a time, with screenshots from the Unity Editor.
+> **Status: first full draft.** All lessons 000 to 007 now have a guide and a finished scene in the `xr-course` project. The scenes were checked in the Editor (no missing scripts or references, no console errors in Play mode, spawning and buttons tested by script). **Nothing has been tried by touch on a phone or in a headset yet**, and the guides still need a read-through by a person following them from the Starter package.
 
 ## Where the ideas come from
 
@@ -35,9 +35,9 @@ The rule for these projects: **as little code as possible.** Most of the work is
 | 001 | **Try the XR Foundation** (not a project) | AR, markerless (surface) | Unity's built-in AR demo in the Mobile AR template: plane detection, tap to place a shape, move, rotate and scale it. Nothing to build, so it is a try-out only | None |
 | 002 | **Place the Heart** | AR, markerless (surface) | Bring your own model into the scene, make a prefab, set the spawner to place it, touch to move, rotate and scale | None |
 | 003 | **Textbook Pop-up** | AR, image tracking | A printed picture makes a 3D model appear, the reference image library | None |
-| 004 | **Build a Molecule** | AR, markerless | Choosing and placing several different models, a simple menu with buttons | One 6-line script |
-| 005 | **Label the Parts** | AR, markerless | World-space labels, a toggle button, labels that face the camera | One 5-line script |
-| 006 | **Solar System on the Table** | AR, markerless | Parent and child objects, rotation and animation, scale for real-world size | One 4-line script |
+| 004 | **Build a Molecule** | AR, markerless | Choosing and placing several different models, a simple menu with buttons | One 5-line script |
+| 005 | **Label the Parts** | AR, markerless | World-space labels, a toggle button, labels that face the camera | Two short scripts |
+| 006 | **Solar System on the Table** | AR, markerless | Parent and child objects, rotation and animation, scale for real-world size | One 5-line script |
 | 007 | **Virtual Lab Visit** (VR demo) | VR, 6DoF | Teleport movement, grabbing objects, a world-space menu, comfort settings | None |
 
 **001 is a try-out, not a project.** Unity does it all with built-in components, so there is nothing to build. From **002** the learner brings their own assets into the scene and sets them up for their own needs. **007** is the VR demo.
@@ -50,7 +50,8 @@ The rule for these projects: **as little code as possible.** Most of the work is
 Unity/
   README.md              this file
   GETTING-STARTED.md     account, download, VS Code and phone set-up (no screenshots)
-  xr-course/             THE Unity project. One project for the whole course
+  xr-course/             THE Unity project = the FINAL version (all lessons finished)
+  packages/              XR-Course-Starter.unitypackage and XR-Course-Final.unitypackage
     Assets/Scenes/       001-Try-the-XR-Foundation, 002-Place-the-Heart, 003-... one scene per lesson
     Assets/Shared/       models, textures and prefabs used by more than one lesson
   000-setup/             guide: create the project and test it in the Editor
@@ -64,6 +65,8 @@ Unity/
   assets/                source models and pictures (copied from the Lens Studio course)
   logos/                 the app icons shown at the top of the guides
 ```
+
+**Start and Final.** The **Final** version is the `xr-course` project: every lesson finished, to compare against. The **Starter** is one file, `packages/XR-Course-Starter.unitypackage`. A learner makes a new Mobile AR project (lesson 000), drags the Starter file into the Project window and clicks Import. They get all the models, textures and a clean `Start` scene, then build each lesson themselves and save it as a new numbered scene. `XR-Course-Final.unitypackage` holds the finished scenes for anyone who does not want the whole project.
 
 **One project, many scenes.** Learners open `xr-course` once (one slow import) and then move through the lessons by opening the next numbered scene. Each lesson folder here holds only the guide and its screenshots. At the end of the course the project is also packaged as a single `.unitypackage` file.
 
