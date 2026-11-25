@@ -21,6 +21,11 @@ public static class CoursePackager
         AssetDatabase.DeleteAsset("Assets/Starter/Start.unity");
         AssetDatabase.CopyAsset("Assets/Scenes/001-Try-the-XR-Foundation.unity", "Assets/Starter/Start.unity");
         AssetDatabase.Refresh();
+        // ...without the template's menus: just the AR Session, the XR Origin (AR Rig) and a light.
+        var st = UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/Starter/Start.unity");
+        foreach (var t in Object.FindObjectsByType<Transform>(FindObjectsInactive.Include, FindObjectsSortMode.None).Where(t => t.name == "UI").ToArray())
+            if (t != null) Object.DestroyImmediate(t.gameObject);
+        UnityEditor.SceneManagement.EditorSceneManager.SaveScene(st);
 
         var log = new StringBuilder();
         Export(new[] { "Assets/Shared/Models", "Assets/Shared/Textures", "Assets/Starter" }, "XR-Course-Starter", log);

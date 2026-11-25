@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SimulationEnvironmentAssetsManager
   m_EditorClassIdentifier: 
   m_EnvironmentPrefabPaths:
-  - Assets/003-Textbook-Popup/SimulationEnvironment.prefab
+  - Assets/Shared/SimulationEnvironments/Table.prefab
+  - Assets/Shared/SimulationEnvironments/Table-With-Engine-Page.prefab
   - Packages/com.unity.xr.arfoundation/Assets/Prefabs/DefaultSimulationEnvironment.prefab
   m_FallbackAtEndOfList: 1

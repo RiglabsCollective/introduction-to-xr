@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258dfc39982622b4e9b02ecfd28a2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
-  degreesPerSecond: 40
+  degreesPerSecond: 4
 --- !u!1 &1760436908109872263 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6727574554699749355, guid: 58ec21853461a5241a5e0e1d31c97c4c, type: 3}
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258dfc39982622b4e9b02ecfd28a2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
-  degreesPerSecond: 40
+  degreesPerSecond: 4
 --- !u!1 &2199277498449115485 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2614877965755592143, guid: 58ec21853461a5241a5e0e1d31c97c4c, type: 3}
@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258dfc39982622b4e9b02ecfd28a2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
-  degreesPerSecond: 40
+  degreesPerSecond: 4
 --- !u!1 &3481196749705066566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -757518859801472214, guid: 58ec21853461a5241a5e0e1d31c97c4c, type: 3}
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258dfc39982622b4e9b02ecfd28a2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
-  degreesPerSecond: 40
+  degreesPerSecond: 4
 --- !u!1 &4026778411670325425 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8273830233797796829, guid: 58ec21853461a5241a5e0e1d31c97c4c, type: 3}
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258dfc39982622b4e9b02ecfd28a2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
-  degreesPerSecond: 40
+  degreesPerSecond: 4
 --- !u!1 &4629765118587031338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8830631177151175610, guid: 58ec21853461a5241a5e0e1d31c97c4c, type: 3}
@@ -431,7 +431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258dfc39982622b4e9b02ecfd28a2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
-  degreesPerSecond: 40
+  degreesPerSecond: 4
 --- !u!1 &4785135747754856231 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8693276591468944309, guid: 58ec21853461a5241a5e0e1d31c97c4c, type: 3}
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258dfc39982622b4e9b02ecfd28a2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
-  degreesPerSecond: 40
+  degreesPerSecond: 4
 --- !u!4 &4808094112111168647 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 58ec21853461a5241a5e0e1d31c97c4c, type: 3}
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258dfc39982622b4e9b02ecfd28a2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
-  degreesPerSecond: 40
+  degreesPerSecond: 4
 --- !u!1 &5328348463085704765 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 58ec21853461a5241a5e0e1d31c97c4c, type: 3}
@@ -517,4 +517,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258dfc39982622b4e9b02ecfd28a2888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
-  degreesPerSecond: 40
+  degreesPerSecond: 4

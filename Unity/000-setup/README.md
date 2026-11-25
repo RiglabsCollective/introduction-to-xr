@@ -48,7 +48,7 @@ Why two objects? The **AR Session** only runs tracking. The **XR Origin** is whe
 3. Tick **XR Simulation**.
 4. Choose **Window → XR → AR Foundation → XR Environment**, then click the **Simulation** option in the toolbar if it is not on already.
 
-The Scene view can now show a small room. That room is the pretend world your AR phone looks at.
+The Scene view can now show a small room. (In the Final project a script switches the room for each lesson when you press Play: the full demo room for 001, a plain floor and table for the others. In your own project, pick a room in the XR Environment window.) That room is the pretend world your AR phone looks at.
 
 ### Step 4 – Press Play
 

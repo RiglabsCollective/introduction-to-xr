@@ -68,7 +68,7 @@ Why the size? Unity needs to know how big the picture really is, so it can tell 
 ### Step 5 – Test
 
 - **On a phone:** print `engine-marker.png` about 20 cm wide (or show it on a second screen). Build to the phone (see below) and point the camera at it. The engine appears on the page and plays its animation.
-- **In the Editor:** XR Simulation can also track images, but the picture has to be added to its simulated room. That is not set up in the course project yet.
+- **In the Editor:** XR Simulation can also track images. In the Final project the engine page lies on the table of the simulated room for this scene (`Assets/Shared/SimulationEnvironments/Table-With-Engine-Page`). The script `Assets/Shared/Editor/SceneEnvironment.cs` picks the right room for each lesson when you press Play.
 
 ## Test on a phone
 

@@ -47,6 +47,7 @@ Why? When the model's animation turns the pivot, everything inside it, planet an
 1. Make an empty GameObject `Solar System` and drag the model inside it.
 2. Select the model and add an **Animator**.
 3. Right-click in `Assets/006-Solar-System` → **Create → Animator Controller**. Open it, drag the model's clip into the graph so it is the orange **default** state, and assign the controller to the Animator.
+4. The orbit is too fast to enjoy. Double-click the controller, click the orange state and set **Speed** to `0.1` in the Inspector (ten times slower).
 
 ### Step 4 – The spin script
 
@@ -66,17 +67,17 @@ public class Spin : MonoBehaviour
 - **`Update`** runs every frame. **`Time.deltaTime`** is the time since the last frame, so the speed is the same on every phone.
 - **`transform.Rotate(0, ..., 0)`** turns the object around its up axis (Y).
 
-Add the script to each **planet** (the inner object with the mesh, not the pivot). Set **Degrees Per Second** to `40`. Do not add it to the moons.
+Add the script to each **planet** (the inner object with the mesh, not the pivot). Set **Degrees Per Second** to `4` (slow, so you can watch it). Do not add it to the moons.
 
 ![The planet hierarchy inside the prefab](guide-images/step-03-prefab-hierarchy.png)
 
-![The earth planet with the Spin script at 40 degrees per second](guide-images/step-03-spin.png)
+![The earth planet with the Spin script](guide-images/step-03-spin.png)
 
 ### Step 5 – Make it a prefab you can place
 
 1. On `Solar System`, add a **Box Collider** (fit it around the planets), a **Rigidbody** (**Is Kinematic**, no gravity), **XR Grab Interactable** and **AR Transformer**, as for the heart in [lesson 002](../002-place-the-heart/README.md). The finished model is about 40 cm across and 8 cm tall.
 2. Drag `Solar System` into `Assets/Shared/Prefabs` and delete it from the scene.
-3. Select **Object Spawner**: set **Object Prefabs** to size `1` and drag in `Solar System`. Untick **Apply Random Angle At Spawn** and **Only Spawn In View**. Turn off the template's **UI** object.
+3. Select **Object Spawner**: set **Object Prefabs** to size `1` and drag in `Solar System`. Untick **Apply Random Angle At Spawn** and **Only Spawn In View**.
 
 ![The Object Spawner placing the solar system](guide-images/step-04-object-spawner.png)
 

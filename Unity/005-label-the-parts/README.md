@@ -88,7 +88,7 @@ Make an empty object `Label Toggle` and add the `LabelToggle` script to it.
 
 ### Step 4 – Set the spawner and menu
 
-1. Select **Object Spawner**: set **Object Prefabs** to size `1` and drag `Heart Labeled` in. Untick **Apply Random Angle At Spawn** and **Only Spawn In View**. Turn off the template's **UI** object.
+1. Select **Object Spawner**: set **Object Prefabs** to size `1` and drag `Heart Labeled` in. Untick **Apply Random Angle At Spawn** and **Only Spawn In View**.
 2. Make a Canvas `Course UI` with a **Button Bar** and one button labelled `Labels on/off`, exactly as in [lesson 004](../004-build-a-molecule/README.md) step 4.
 
 ![The scene Hierarchy: Label Toggle and the Course UI button](guide-images/step-04-hierarchy.png)

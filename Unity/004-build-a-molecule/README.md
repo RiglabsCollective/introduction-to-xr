@@ -50,8 +50,6 @@ Do this once for each atom. We use these sizes and colours:
 
 ![The Object Spawner with the three atoms](guide-images/step-03-spawner-atoms.png)
 
-Turn off the template's own **UI** object (untick it in the Hierarchy) so only our menu shows.
-
 ### Step 3 – The script
 
 In `Assets/Shared/Scripts` create a C# script named `AtomPicker` and replace its content with:
