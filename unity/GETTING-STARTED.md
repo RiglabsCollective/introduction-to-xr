@@ -1,9 +1,9 @@
 <p>
-  <img src="logos/unity.png" alt="Unity" width="72">
+  <img src="docs/images/logos/unity.png" alt="Unity" width="72">
   &nbsp;
-  <img src="logos/unity-hub.png" alt="Unity Hub" width="72">
+  <img src="docs/images/logos/unity-hub.png" alt="Unity Hub" width="72">
   &nbsp;
-  <img src="logos/vscode.png" alt="Visual Studio Code" width="72">
+  <img src="docs/images/logos/vscode.png" alt="Visual Studio Code" width="72">
 </p>
 
 # Getting started with Unity

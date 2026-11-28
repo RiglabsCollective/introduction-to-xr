@@ -4,11 +4,13 @@
 **AR type:** Markerless (surface detection)
 **Time:** about 25 minutes. **Code:** none
 
-Do [Set up](../00-setup/README.md) first.
+Do [00 – Set up](00-setup.md) first.
 
-## Step 1 – Make your scene
+## Step 1 – Open your starter scene
 
-Open `Assets/Starter/Start`. Choose **File > Save As** and save it as `01-World-AR`.
+Open `Assets/Scenes/01-World-AR` in the `xr-course` project.
+
+> Need to compare with the finished version? Open `Assets/Completed/Scenes/01-World-AR-Completed`.
 
 ## Step 2 – Make the heart prefab
 
@@ -21,7 +23,7 @@ Open `Assets/Starter/Start`. Choose **File > Save As** and save it as `01-World-
 | Position | 0, 0.074, 0 |
 | Scale | 4.67, 4.67, 4.67 |
 
-4. Drag the material `HeartSkin` (in `Assets/Shared/Prefabs`) onto the heart in the Scene view.
+4. Create a material (e.g. in a `Materials` folder) and assign the texture maps from `Assets/Shared/Textures/Heart/`, then drag the material onto the heart in the Scene view.
 5. Select the parent `Heart` and use **Add Component** to add these:
 
 | Component | Setting | Why |
@@ -30,9 +32,9 @@ Open `Assets/Starter/Start`. Choose **File > Save As** and save it as `01-World-
 | **XR Grab Interactable** | A **Rigidbody** is added for you: tick **Is Kinematic**, untick **Use Gravity** | So you can select it and it does not fall |
 | **AR Transformer** | Leave as it is | Move, rotate and scale by touch |
 
-6. Drag `Heart` from the Hierarchy into `Assets/Shared/Prefabs`. It is now a **prefab**. Delete `Heart` from the Hierarchy.
+6. Drag `Heart` from the Hierarchy into a `Prefabs` folder (e.g. `Assets/Prefabs`) to save it as a **prefab**, then delete `Heart` from the Hierarchy.
 
-![The Heart prefab: XR Grab Interactable and AR Transformer](guide-images/step-03b-heart-prefab-grab.png)
+![The Heart prefab: XR Grab Interactable and AR Transformer](images/01-world-ar/step-03b-heart-prefab-grab.png)
 
 ## Step 3 – Give the prefab to the Object Spawner
 
@@ -40,7 +42,7 @@ Open `Assets/Starter/Start`. Choose **File > Save As** and save it as `01-World-
 2. Set **Object Prefabs** to size `1` and drag your `Heart` prefab into the slot.
 3. Set **Spawn Option Index** to `0`.
 
-![The Object Spawner with the Heart prefab](guide-images/step-04-object-spawner.png)
+![The Object Spawner with the Heart prefab](images/01-world-ar/step-04-object-spawner.png)
 
 ## Step 4 – Press Play
 
@@ -49,6 +51,10 @@ Open `Assets/Starter/Start`. Choose **File > Save As** and save it as `01-World-
 3. Wait until the surface shows dots, then click it. The heart appears.
 
 On a phone you can also drag to move it, twist with two fingers to rotate it and pinch to scale it.
+
+## Step 5 – Add Android back gesture to exit (for phone builds)
+
+Follow [03 – Android back gesture](03-android-back-exit.md) to add `AndroidBackToQuit` to **AR Session** so swiping back on Android closes the app.
 
 ## Test on a phone (optional)
 
@@ -60,7 +66,7 @@ On a phone you can also drag to move it, twist with two fingers to rotate it and
 | Problem | Fix |
 |---------|-----|
 | The heart is huge or tiny | Check the `Model` scale is 4.67 and the parent `Heart` scale is 1 |
-| The heart is white | Drag `HeartSkin` onto it |
+| The heart is white | Assign your material with the Heart texture maps onto `Model` |
 | Clicking does nothing | Check the prefab is in **Object Prefabs** and you clicked on the dots |
 
 ## Credits

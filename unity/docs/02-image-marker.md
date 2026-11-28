@@ -4,17 +4,17 @@
 **AR type:** Image tracking
 **Time:** about 20 minutes. **Code:** none
 
-Do [Set up](../00-setup/README.md) first.
+Do [00 – Set up](00-setup.md) first.
 
-## Step 1 – Make your scene
+## Step 1 – Open your starter scene
 
-Open `Assets/Starter/Start`. Choose **File > Save As** and save it as `02-Image-Marker`. Keep the word **Marker** in the name: it tells the simulator to put the page on the table.
+Open `Assets/Scenes/02-Image-Marker` in the `xr-course` project. Keep the word **Marker** in the scene name: it tells the simulator to put the page on the table.
 
-Select **Object Spawner** and untick the box next to its name, so clicking does nothing in this scene.
+> Need to compare with the finished version? Open `Assets/Completed/Scenes/02-Image-Marker-Completed`.
 
-## Step 2 – Look at the prefab
+## Step 2 – Prepare the prefab
 
-In `Assets/Shared/Prefabs`, double-click `V8Engine`. It is ready to use: an engine 15 cm across. Click the arrow at the top of the Hierarchy to go back.
+Create a `V8Engine` prefab from `Assets/Shared/Models/v8-engine.fbx` with a material using the textures in `Assets/Shared/Textures/V8Engine/`. (To inspect the finished setup for comparison, double-click `V8Engine` in `Assets/Completed/Prefabs/`.)
 
 ## Step 3 – Make the image library
 
@@ -24,24 +24,28 @@ This is the list of pictures the app looks for.
 2. Click **Add Image** and drag `engine-marker` (in `Assets/Shared/Textures`) into the slot.
 3. Tick **Specify Size** and enter `0.2` by `0.2`. This is the printed size in metres.
 
-![The image library](guide-images/step-03-image-library.png)
+![The image library](images/02-image-marker/step-03-image-library.png)
 
-## Step 4 – Give the prefab to the AR Tracked Image Manager
+## Step 4 – Give the library and prefab to AR Tracked Image Manager
 
-1. Select **XR Origin (AR Rig)**, click **Add Component** and add **AR Tracked Image Manager**.
-2. Drag `TextbookImages` into **Serialized Library**.
+1. Select **XR Origin (AR Rig)** — it already has **AR Tracked Image Manager** attached (or add it with **Add Component** if creating a scene from scratch).
+2. Drag your `TextbookImages` library into **Serialized Library**.
 3. Set **Max Number Of Moving Images** to `1`.
 4. Drag the `V8Engine` prefab into **Tracked Image Prefab**.
 
-![The AR Tracked Image Manager](guide-images/step-04-tracked-image-manager.png)
+![The AR Tracked Image Manager](images/02-image-marker/step-04-tracked-image-manager.png)
 
 ## Step 5 – Press Play
 
 Press **Play** and wait a few seconds. The engine appears on the page on the table. Hold the **right mouse button** to look around and walk with **W A S D**.
 
+## Step 6 – Add Android back gesture to exit (for phone builds)
+
+Follow [03 – Android back gesture](03-android-back-exit.md) to add `AndroidBackToQuit` to **AR Session** so swiping back on Android closes the app.
+
 ## Test on a phone (optional)
 
-Print `unity/assets/textures/engine-marker.png` 20 cm wide, or show it on another screen. Then build as in [World AR](../01-world-ar/README.md), adding this scene.
+Print [engine-marker.png](images/02-image-marker/engine-marker.png) 20 cm wide, or show it on another screen. Then build as in [01 – World AR](01-world-ar.md), adding this scene.
 
 ## Make it your own
 

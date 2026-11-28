@@ -211,9 +211,9 @@ MonoBehaviour:
   <trackablesChanged>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  m_SerializedLibrary: {fileID: 11400000, guid: e83a67293b674df4fa18bcd1c80c6695, type: 2}
+  m_SerializedLibrary: {fileID: 0}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 2172732009827115195, guid: 9c14d8a8cf5be9445af03a261edd7c8c, type: 3}
+  m_TrackedImagePrefab: {fileID: 0}
 --- !u!1 &702413256
 GameObject:
   m_ObjectHideFlags: 0
