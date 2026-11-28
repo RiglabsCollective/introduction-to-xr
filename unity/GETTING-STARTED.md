@@ -53,10 +53,10 @@ If Hub doesn't ask, open your account menu in the top corner, choose **Manage li
 
 ## Step 3 – Install the Unity Editor
 
-These guides were made with **Unity 6000.6.4f1**. Use that version if you can. If it is not offered, ask your trainer which Unity 6 version to use, because the menus can move a little between versions.
+These guides were made with **Unity 6000.6.11f1**. Use that version if you can. If it is not offered, ask your trainer which Unity 6 version to use, because the menus can move a little between versions.
 
 1. In Unity Hub, open **Installs** and choose **Install Editor**.
-2. Pick **Unity 6000.6.4f1**. If it isn't in the list, open the **Archive** tab or go to the Unity download archive, find the version, and choose **Install**.
+2. Pick **Unity 6000.6.11f1**. If it isn't in the list, open the **Archive** tab or go to the Unity download archive, find the version, and choose **Install**.
 3. When Hub asks about modules, tick the ones for your computer and phone:
 
 | Module | Who needs it |
